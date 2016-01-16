@@ -9,6 +9,8 @@
   "author": "d3_crescentia",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "kerberos": "0.0.17",
+    "mongoose": "^4.3.6"
   }
 }
