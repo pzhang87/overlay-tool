@@ -31,6 +31,7 @@ var team2 = new TeamModel({
 })
 
 var match = new MatchModel({
+  current: true,
   game: "SC2",
   team1: team1.id,
   team2: team2.id,

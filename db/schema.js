@@ -14,6 +14,7 @@ var TeamSchema = new Schema({
 });
 
 var MatchSchema = new Schema({
+  current: Boolean,
   game: String,
   team1: String,
   team2: String,
