@@ -14,7 +14,7 @@ https://trello.com/b/XMCjmnju/overlay-tool
 
 The weekly production asset pipeline for CSL overlays sucks. I'm getting real tired of having to input the same text into different fields of separate PSD files, having to save them locally and upload them to Dropbox for streamers/casters to retrieve and then load into OBS.
 
-I'd rather input the text once somewhere online and render the pages, then have streamers/casters put it into OBS whether through download or online app.
+I'd rather input the text once somewhere online and render the pages, then have streamers/casters put it into OBS whether through download or online app. Potential benefit could be adding dynamic/animated elements to these pages.
 
 At some point, if CSL API endpoints become a real thing, I'd love to be able to hit that API for some JSON and pass it into this app so I don't even have to manually do stuff, just select a match to generate overlays for.
 
