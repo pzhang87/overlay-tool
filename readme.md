@@ -2,7 +2,7 @@
 
 This is a web-app that builds and serves pages to be used as stream overlays.
 
-Initial design for use by the Collegiate Starleague, potentially One Nation of Gamers.
+Initial design for use by the Collegiate Starleague. Potential extension to: One Nation of Gamers.
 
 If at some point this becomes proprietary software, I'm going to take this repo down.
 

@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3",
+    "handlebars": "^4.0.5",
     "kerberos": "0.0.17",
     "mongoose": "^4.3.6"
   }
