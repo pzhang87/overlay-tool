@@ -11,22 +11,16 @@
   <script src="../bower_components/backbone/backbone-min.js"></script>
 </head>
 <body>
-  <form class="matchForm">
+  <form class="matchForm" action="matches" method="post">
     <div class="form">
       <div class="team1">
         <fieldset>
           <label>Team 1:</label>
           <div><input type="text" name="team1_name" value="Team 1"></div>
-        </fieldset>
-        <fieldset>
           <label>Logo:</label>
           <div><input type="text" name="team1_logo" value="Logo"></div>
-        </fieldset>
-        <fieldset>
           <label>Content:</label>
           <div><input type="text" name="team1_abbrv" value="Abbreviation"></div>
-        </fieldset>
-        <fieldset>
           <label>Players:</label>
           <div><input type="text" name="team1_players" value="Players"></div>
         </fieldset>
@@ -37,18 +31,25 @@
         <fieldset>
           <label>Team 2:</label>
           <div><input type="text" name="team2_name" value="Team 2"></div>
-        </fieldset>
-        <fieldset>
           <label>Logo:</label>
           <div><input type="text" name="team2_logo" value="Logo"></div>
-        </fieldset>
-        <fieldset>
           <label>Content:</label>
           <div><input type="text" name="team2_abbrv" value="Abbreviation"></div>
-        </fieldset>
-        <fieldset>
           <label>Players:</label>
           <div><input type="text" name="team2_players" value="Players"></div>
+        </fieldset>
+      </div>
+
+      <div class="match_info">
+        <fieldset>
+          Game: 
+          <select name="game">
+            <option value="SC2">SC2</option>
+            <option value="LoL">LoL</option>
+            <option value="DotA2">DotA2</option>
+            <option value="Hearthstone">Hearthstone</option>
+            <option value="CS:GO">CS:GO</option>
+          </select>
         </fieldset>
       </div>
 

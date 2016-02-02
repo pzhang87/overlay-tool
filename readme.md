@@ -2,7 +2,7 @@
 
 This is a web-app that builds and serves pages to be used as stream overlays.
 
-Initial design for use by the Collegiate Starleague. Potential extension to: One Nation of Gamers.
+Initial design for use by the Collegiate Starleague.
 
 If at some point this becomes proprietary software, I'm going to take this repo down.
 
@@ -28,4 +28,5 @@ At some point, if CSL API endpoints become a real thing, I'd love to be able to 
 * https://html2canvas.hertzen.com/examples.html
 * MongoDB
 * ExpressJS/Node
-* Backbone (or Angular or React)
+* Backbone? (or Angular or React)
+* Handlebars
